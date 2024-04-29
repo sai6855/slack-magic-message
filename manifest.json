@@ -2,11 +2,8 @@
   "name": "slack-magic-message",
   "version": "0.1.0",
   "description": "slack-magic-message",
-  "permissions": ["contextMenus", "scripting"],
+  "permissions": ["scripting"],
   "host_permissions": ["*://*/*"],
-  "background": {
-    "service_worker": "background.js"
-  },
   "manifest_version": 3,
   "content_scripts": [
     {

@@ -1,4 +1,4 @@
-const GROQ_API_KEY = "YOUR_API_KEY";
+const GROQ_API_KEY = process.env.GROQ_API_KEY;
 
 function generateIcon() {
   const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
